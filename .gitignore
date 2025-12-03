@@ -1,0 +1,14 @@
+# Bỏ qua thư mục môi trường ảo
+venv/
+env/
+
+# Bỏ qua file biên dịch python
+__pycache__/
+*.pyc
+
+# Bỏ qua database SQLite (Mỗi máy nên có data riêng, hoặc migrate riêng)
+*.db
+*.sqlite3
+
+# Bỏ qua file cấu hình biến môi trường (chứa mật khẩu)
+.env
